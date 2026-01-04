@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="72.767471mm"
+   height="40.958015mm"
+   viewBox="0 0 72.767471 40.958015"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m 6,0 c -3,1 -7,3 -9,5 0,0 0,-4 2,-5 -2,-1 -2,-5 -2,-5 2,2 6,4 9,5 z"
+         id="path7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowTriangleStylized"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m 6,0 c -3,1 -7,3 -9,5 0,0 0,-4 2,-5 -2,-1 -2,-5 -2,-5 2,2 6,4 9,5 z"
+         id="path5" />
+    </marker>
+    <pattern
+       xlink:href="#pattern6-7"
+       preserveAspectRatio="xMidYMid"
+       id="pattern2"
+       patternTransform="matrix(-0.2,0,0,-0.2,190,350.00004)"
+       x="0"
+       y="0" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="28.28"
+       height="23.44"
+       patternTransform="translate(190,350)"
+       preserveAspectRatio="xMidYMid"
+       style="fill:#c2c2c2"
+       id="pattern6-7">
+      <path
+         style="paint-order:stroke markers fill;stop-color:#000000"
+         d="M 0,0        A 20,20 0,0,1 14.14,5.86        A 20,20 0,0,0 28.28,11.72        L 28.28, 23.44        A 20,20 0,0,1 14.14,17.58        A 20,20 0,0,0 0,11.72        L 0,0 "
+         id="path4-2" />
+    </pattern>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-79.6075,-99.034483)">
+    <circle
+       style="opacity:1;fill:url(#pattern2);stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1"
+       id="path2"
+       cx="97.919998"
+       cy="121.68"
+       r="18.179998" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized)"
+       d="M 141.59166,111.78 H 114.35968"
+       id="path3" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized)"
+       d="m 113.28535,131.58001 h 27.23198"
+       id="path4" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7)"
+       d="m 113.28535,111.78 -15.365352,8.94541"
+       id="path6" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7)"
+       d="m 97.088653,121.2095 15.365357,9.9"
+       id="path8" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#c83974;fill-opacity:0.902579;stroke:none;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       x="128.61565"
+       y="109.52377"
+       id="text8"><tspan
+         id="tspan8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c83974;fill-opacity:0.902579;stroke:none;stroke-width:0.265"
+         x="128.61565"
+         y="109.52377">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#c83974;fill-opacity:0.902579;stroke:none;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       x="128.61565"
+       y="130.69791"
+       id="text12"><tspan
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c83974;fill-opacity:0.902579;stroke:none;stroke-width:0.265"
+         x="128.61565"
+         y="130.69791">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#c83974;fill-opacity:0.902579;stroke:none;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       x="104.44088"
+       y="130.69791"
+       id="text13"><tspan
+         id="tspan13"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c83974;fill-opacity:0.902579;stroke:none;stroke-width:0.265"
+         x="104.44088"
+         y="130.69791">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#c83974;fill-opacity:0.902579;stroke:none;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       x="104.44088"
+       y="113.59589"
+       id="text14"><tspan
+         id="tspan14"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c83974;fill-opacity:0.902579;stroke:none;stroke-width:0.265"
+         x="104.44088"
+         y="113.59589">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#c83974;fill-opacity:0.902579;stroke:none;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       x="94.385818"
+       y="122.06014"
+       id="text15"><tspan
+         id="tspan15"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c83974;fill-opacity:0.902579;stroke:none;stroke-width:0.265"
+         x="94.385818"
+         y="122.06014">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;fill-opacity:0.902579;stroke:none;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       x="89.672935"
+       y="101.25063"
+       id="text16"><tspan
+         id="tspan16"
+         style="fill:#000000;fill-opacity:0.902579;stroke-width:0.265"
+         x="89.672935"
+         y="101.25063">Feed particle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Libertinus Serif';-inkscape-font-specification:'Libertinus Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;fill-opacity:0.902579;stroke:none;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
+       x="142.74837"
+       y="120.78306"
+       id="text17"><tspan
+         id="tspan17"
+         style="fill:#000000;fill-opacity:0.902579;stroke-width:0.265"
+         x="142.74837"
+         y="120.78306">Solvent</tspan><tspan
+         style="fill:#000000;fill-opacity:0.902579;stroke-width:0.265"
+         x="142.74837"
+         y="124.75181"
+         id="tspan18">bulk</tspan></text>
+  </g>
+</svg>
