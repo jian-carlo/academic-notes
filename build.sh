@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 # compile all src/*/main.typ into build/*.pdf
 
+if [ ! -d build ]; then
+	mkdir build
+fi
+
 for main_file in src/*/main.typ; do
 	dir="$(dirname -- "$main_file")"
 
