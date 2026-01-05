@@ -23,21 +23,7 @@
   #pagebreak()
 ]
 
-#let solution(CONTENT) = [
-  #align(center, block(
-    align(
-      left,
-      [
-        #text(weight: "bold", "Solution") \
-        #v(0.2em)
-        #set math.equation(numbering: none)
-        #CONTENT
-      ]
-    ),
-    width: 120%,
-    stroke: none,
-    fill: gray.transparentize(80%),
-    radius: 5pt,
-    inset: 1em,
-  ))
+#let where(CONTENT) = [
+  Where:
+  #move(CONTENT, dx: 1em)
 ]
