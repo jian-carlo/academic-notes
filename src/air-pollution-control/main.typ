@@ -79,4 +79,53 @@ pollutants go?" It is important to know that no 100% separate pollutants, and
 some go away to disperse or accumulate in the atmosphere. This is where
 atmospheric dynamics and meteorology come into play.
 
-== 
+== Difference between Atmospheric Dynamics and Meterology
+
+Atmospheric dynamics focus more on the long term effects and rely on physical
+laws to make predictions. However, meteorology focuses more on day to day
+weather.
+
+== What is an Air Parcel?
+
+An air parcel is a theoretical bubble of air used by meteorologists to explain
+weather phenomena. They study the behavior of vertical transport of air parcels
+and what happens to its temperature when it expands or compresses.
+
+== Temperature Inversion
+
+Warm air tends to rise and cold air tends to sink. _Temperature_ (or _thermal_)
+inversion results when the layer cold air sits on top of warm air. In effect,
+pollutants are trapped since air cannot escape through the layer of warm air.
+Normally the ground is warm and the temperature decreases as altitude increases
+atleast in the troposphere.
+
+#figure(
+  image("assets/thermal-inversion.jpg"),
+  caption: [Thermal inversion.]
+) <fig:thermal-inversion>
+
+_Atmosoheric stability_ is defined as the resistance of wind to vertical
+transport. In retrospect, instability is preferred since it is easier to
+disperse the pollutants over a large area.
+
+== Wind Speed
+
+Wind speed can be calculated using the equation below
+
+$
+  V = (V_"ref")/(kappa) ln Z/Z_0
+$<eq:vonkarmann>
+
+#where[
+  / $V$: is the velocity
+  / $V_"ref"$: is the reference velocity
+  / $kappa$: is the von karmann constant \~ 0.4
+  / $Z$: is the height
+  / $Z_0$: is the roughness
+]
+
+The sudden burst of wind at a certain season is attributed to the shear between
+different wind currents. For example, in the Philippines the shear lines between
+the northeast monsoon and the easterlies causes strong winds in te country.
+
+== Wind Roses
