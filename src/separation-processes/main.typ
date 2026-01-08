@@ -149,7 +149,6 @@ Find the mass flow rates and composition of the outlet streams of
     L_0 dot 0.2 & = V_1(x) + L_1(x) \
     100 dot 0.2 & = 66.67 dot x + 53.33 dot x \
     x & = y = 0.167 ("kg oil")/("kg solution")
-  ]
   $
 ]
 
@@ -223,4 +222,66 @@ Find the percent of neem seed oil recovered from.
     "% recovery" & = (4.4 dot 0.2308)/(5 dot 0.3) \
     & = 67.69%
   $
+]
+
+=== Multistage Leaching of Copra (Case I) <prob:mult-leach-copra>
+
+Copra containing 20% coconut oil and the rest are insoluble solids using
+a countercurrent multistage leaching configuration wishing to recover 90% of
+the coconut oil and using pure hexane as solvent. The resulting overflow oil
+solution is to be 50 wt% coconut oil. A constant retention factor of 1 kg
+liquid retained per 2 kg of insoluble solid. Calculate the number of leaching
+stages.
+
+#figure(
+  image("assets/multistage-leaching-copra-prob.svg"),
+  caption: [Flowsheet of @prob:mult-leach-copra]
+) <fig:copra-mult-stage-prob>
+
+#solution[
+1. Calculate $L_n$ by assuming a basis of 100 kg feed.
+$
+  L_n
+  & = 100 "kg copra" dot (0.80 "kg insoluble solid")/(1 "kg copra") dot (1 "kg liquid")/(2 "kg insoluble solid") \
+  & = 40 "kg liquid"
+$
+
+2. Calculate $x_n$.
+$
+ x_n
+ & = ("kg oil")/("kg solution") \
+ & = (100 "kg copra" dot (0.2 "kg oil")/(1 "kg copra") dot 0.1 "unrecovered")/(40 "kg solution") \
+ & = 0.05
+$
+
+3. Calculate $V_1$.
+$
+ V_1
+ & = ("kg oil")/("oil concentration") \
+ & = (100 "kg copra" dot (0.2 "kg oil")/(1 "kg copra") dot 0.9 "recovered")/(0.5) \
+ & = 36 "kg liquid"
+$
+
+4. Calculate $V_(n+1)$ or $V_2$ (they are assumed to be equal, the same way $L_1 = L_n$).
+$
+ V_(n+1)
+ & = V_1 + L_n - L_0 \
+ & = 36 + 40 - 100 dot 0.2 \
+ & = 56 "kg liquid"
+$
+
+5. Calculate $y_2$.
+$
+ 0.2 dot L_0 + y_2 V_2 & = (V_1 + L_1) dot 0.5 \
+ y_2
+ & = ((36 + 40) dot 0.5 - 0.2 dot 100)/(56) \
+ & = 0.3214 \
+$
+
+6. Calculate the number of stages using the absorption factor method.
+$
+ N
+ & = 1 + (ln (0 - 0.05)/(0.3214 - 0.5))/(ln (0 - 0.3214)/(0.05 - 0.5)) \
+ & = 4.78 approx 5 "stages" \
+$
 ]

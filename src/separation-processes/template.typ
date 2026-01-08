@@ -5,6 +5,7 @@
   show heading.where(level: 3): set heading(numbering: "1.")
   set page(margin: (left: 10em, right: 10em))
   set math.equation(numbering: "(1)")
+  show math.frac: math.display
   doc
 }
 
