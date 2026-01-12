@@ -348,4 +348,117 @@ overflow is composed of 8% oil.
   $
 ]
 
-===
+=== Extraction of wax with kerosene (Case II) <prob:wax-case2>
+
+The wax content of a feed containing 75% wax-free kerosene-free pulp, and 25%
+parafinn wax is to be extracted using a solvent containing 0.05 lb of wax per
+100 lb of kerosene. The pulp containing the unextracted wax is to be dried of
+its kerosene and it must not contain over 0.2 lbs of wax per 100 lbs of wax-free
+kerosene-free pulp. Experiment show that 2 lbs of kerosene is retained per lb of
+kerosene and wax-free kerosene-free pulp. The overflow stream is to contain 5
+lbs of wax per 100 lb of wax-free kerosene. Calculate the following with a basis
+of 100 lb wax-free kerosene-free pulp:
+
++ The kerosene in the exhausted pulp.
++ The kerosene in the strong solution.
++ The wax in the strong solution.
++ The wax in the underflow to unit 2.
++ The wax in the overflow from the seond cell to the first.
++ The total number of ideal stages.
+
+// TODO: create figure
+// #figure(
+//   image(),
+//   caption: [Flowsheet for @prob:wax-case2],
+// ) <fig:wax-case2-prob>
+
+#solution[
+  1. Calculate the kerosene in the exhausted pulp.
+  $
+    L_n ' & = 100 "i.s." dot (2 "lb kerosene")/("lb i.s + kerosene") \
+          & = 200 "lb kerosene"
+  $
+
+  2. Calculate the kerosene in $V_1$ and $V_(n+1)$ using a kerosene and wax
+    balance on the overall unit.
+  $
+      L_0 ' + V_(n+1) ' & = V_1 ' + L_n ' & "(kerosene balance)" \
+          0 + V_(n+1) ' & = V_1 ' + 200 \
+    V_(1) ' - V_(n+1) ' & = -200          &                "(1)"
+  $
+
+  $
+    L_0 '' + V_(n+1) '' & = V_1 '' + L_n '' & "(wax balance)" \
+    100 "lb i.s." dot ((25 "lb wax")/(75 "lb i.s.")) & + V_(n+1) ' dot ((0.05 "lb wax")/(100 "lb kerosene")) \ = V_1 ' dot ((5 "lb wax")/(100 "lb wax-free kerosene")) & + 0.2 "lbs wax" \
+    V_(1) ' (5/100) - V_(n+1) ' (0.05/100) & = 100(25/75) - 0.2 & "(2)" \
+  $
+
+  $
+        V_1 ' & = 671.38 "lb kerosene" \
+    V_(n+1) ' & = 871.38 "lb kerosene"
+  $
+
+  3. Calculate the wax in the strong solution ($V_1 ''$).
+  $
+    V_1 '' & = 671.38 "lb kerosene" dot ((5 "lb wax")/(100 "lb kerosene")) \
+           & = 33.569 "lb wax" \
+  $
+
+  4. Calculate the wax in the underflow to unit 2 ($L_1 ''$).
+  $
+    L_1 '' & = 200 "lb kerosene" dot ((5 "lb wax")/(100 "lb kerosene")) \
+           & = 10 "lb wax"
+  $
+
+  5. Calculate the wax in the overflow from the second cell to the first
+    ($V_2 ''$). Let $x$ be $V_2 ''$. Use a wax balance on unit 1.
+  $
+    L_0 '' + V_2 '' & = V_1 '' + L_1 '' \
+    100 (25/75) + x & = 33.569 + 10 \
+                  x & = 10.236 "lb wax"
+  $
+
+  6. Calculate the number of ideal stages using the absorption factor method and
+    determining $y_2$, $x_1$, $y_(n+1)$, $x_n$.
+  $
+        y_2 & = (10.236 "lb wax")/(871.38 "lb kerosene") \
+            & = 0.01175 \
+        x_1 & = (10 "lb wax")/(200 "lb kerosene") \
+            & = 0.05 \
+    y_(n+1) & = (0.05 "lb wax")/(100 "lb kerosene") \
+            & = 0.0005 \
+        x_n & = (0.2 "lb wax")/(200 "lb kerosene") \
+            & = 0.001
+  $
+
+  $
+    N & = 1 + (log (0.0005 - 0.001)/(0.01175 - 0.05))/(log (0.0005 - 0.01175)/(0.001 - 0.05)) \
+    & = 3.948 approx 4 "stages" \
+  $
+]
+
+=== Extraction of NaCl from gypsum with water (Case II, given number of stages) <prob:wax-case2>
+
+The NaCl in 10 MT/day raw gypsum (1 wt% NaCl) is to be extracted using 90 MT/day
+of water in a double stage countercurrent leaching system. The retention factor
+is found to be $(0.09 "MT water")/("MT CaSO"_4)$.
+
+#solution[
+  1. Find $L_2$.
+  $
+    L_2 & = 9.9 "MT i.s." dot (0.09 "MT water")/("MT i.s.") \
+        & = 0.891 "MT water"
+  $
+
+  2. Find $V_1$.
+  $
+    V_1 & = L_0 + L_1 - V_2 \
+        & = 0.1 + 90 - 0.891 \
+        & = 89.209 "MT water" \
+  $
+
+  3. Find $x$ and $y$ using NaCl balance on the first and second units.
+  $
+    90y + 1 = (89.109 + 0.891)x
+  $
+]
